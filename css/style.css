@@ -552,7 +552,7 @@ address{
 
 .footer-send-btn:hover,
 .footer-send-btn:focus {
-        background-color: #4d5ae5;
+        background-color: #404bbf;
 }
 
 .footer-send-icon {
@@ -625,8 +625,8 @@ address{
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:focus,
-.close-button:hover {
+.button-close:focus,
+.button-close:hover {
         fill: #ffffff;
         background-color: #404bbf;
         border: none;
@@ -717,6 +717,7 @@ address{
         line-height: 1.17;
         letter-spacing: 0.04em;
         padding: 8px 16px;
+        resize: none;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background-color: transparent;
@@ -790,7 +791,6 @@ address{
 }
 
 .review-conditions-checkbox-label {
-        justify-content: baseline;
         width: 338px;
         font-family: inherit;
         font-weight: 400;
@@ -815,6 +815,7 @@ address{
         text-align: center;
         color: #ffffff;
         border: none;
+        background-color: #4D5AE5;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
